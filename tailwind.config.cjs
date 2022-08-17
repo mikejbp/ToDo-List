@@ -1,15 +1,11 @@
-/** @type {import('tailwindcss').Config} */ 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
-  darkMode: false,
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
   variants: {
-    extend: {
-      backgroundColor: ["checked"],
-      borderColor: ["checked"],
-    },
+    extend: {},
   },
   plugins: [require("@tailwindcss/forms")],
 }
