@@ -43,7 +43,7 @@ export const Row = ({
           type="checkbox"
           checked={isCompleted}
           onChange={() => handleCheckTodo(id)}
-          className="form-checkbox h-7 w-7"
+          className="form-checkbox h-7 w-8"
         />
       </div>
     </div>
